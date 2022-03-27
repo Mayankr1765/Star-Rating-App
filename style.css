@@ -1,0 +1,30 @@
+.stars{
+    padding: 10px;
+}
+
+
+.stars a{
+    opacity : 0.5;
+    cursor : pointer;
+    padding: 10px;
+}
+
+.stars a:active{
+    opacity: 1.0;
+}
+
+/* .stars:hover a {
+    opacity : 100%;
+}
+
+ .stars a:hover{
+    opacity: 100%;
+} */
+
+/* .stars a:hover ~ a{
+    opacity: 50%;
+}  */
+
+.stars :disabled{
+    pointer-events: none;
+}
